@@ -59,7 +59,7 @@ const App = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
-            <button className="flex justify-center items-center py-2 px-5 h-10 rounded-lg cursor-pointer text-sm bg-gradient-to-r text-white from-brand-heropink via-brand-lightpurple to-brand-lightblue">
+            <button className="py-2 px-5 h-10 rounded-lg cursor-pointer text-sm text-white bg-gradient-to-r from-brand-heropink via-brand-lightpurple to-brand-lightblue">
               Join waitlist as Investor
             </button>
           </div>
@@ -71,14 +71,16 @@ const App = () => {
               us what’s possible. <br />
               Help fund it here.
             </h1>
-            <p className="text-base font-light w-3/4">
+            <p className="text-base font-light w-3/4 pb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
-            <button className="flex justify-center items-center py-2 px-5 h-10 rounded-lg cursor-pointer text-sm bg-black">
-              Join waitlist as Project owner
-            </button>
+            <a href="https://tally.so/r/n9PDXw">
+              <button className="py-2 px-5 h-10 rounded-lg cursor-pointer text-sm bg-black">
+                Join waitlist as Project owner
+              </button>
+            </a>
           </div>
         </div>
       </section>
